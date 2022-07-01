@@ -1,0 +1,87 @@
+@charset "ISO-8859-1";
+
+/************************************  CSS for hotel-confirmation *******************************/
+body {
+	background-color: #e6f3ff; 
+}
+#confirmationDiv {
+	text-align:center;
+}
+#confirmationDiv table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding:12px 20px;
+  width:50%;
+}
+
+#confirmationDiv table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+#confirmationDiv .headingHotelConfirmation {
+	font-weight:bold;
+	color:#001a33;
+}
+#confirmationDiv .detailsHotelConfirmation {
+	font-style:italic;
+	font-size:18px;
+	text-align:center;
+}
+#confirmationDiv input[type=submit] {
+    margin-left: 50px;
+    margin-right: 50px;
+   /*  padding: 8px 5px 10px 5px; */
+    padding: 15px 32px;
+    width: 25%;
+   
+	color: #fff;
+	border: none;
+     text-align: center;
+      display: inline-block;
+     font-size: 16px;
+     background-color:#264d73;
+}
+#confirmationDiv a {
+	 background: #FF8500;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width:20%;
+}
+
+
+
+
+
+
+
+
+
+.form-style-2{
+	max-width: 100%;
+	padding: 20px 12px 10px 20px;
+	font: 13px Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+div.form-style-2-heading {
+	font-weight: bold;
+	font-style: italic;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 20px;
+	font-size: 25px;
+	padding-bottom: 3px;
+	color:#001a33;
+}
+
+.form-style-2 #thankyouMsg {
+	text-indent: 50px;
+  letter-spacing: 1px;
+  text-align:center;
+  font-weight:bold;
+  font-size:18px;
+  color:#006622;
+}
